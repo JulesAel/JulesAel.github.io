@@ -10,11 +10,12 @@ font-family: 'Fira Sans', sans-serif;
         font-size: 3em;
         color:white;
         padding: 12%;
+        margin-top: 0;
     }  
 
 .title 
 {
-     background-image: url("img/michel_serfaty1.jpg");
+     background-image: url("img/michel_serfaty_crop.jpg");
   background-attachment: fixed;
   width:100% ;
   background-size: 100%;
@@ -43,7 +44,12 @@ font-family: 'Fira Sans', sans-serif;
 
 /*Règles CSS pour les ordis */
 @media only screen and (min-width: 1030px) {
-.leg 
+
+    .title
+    {
+    background-image: url("img/michel_serfaty1.jpg");
+    }
+    .leg 
     {
         font-size: 0.8em;
     }
