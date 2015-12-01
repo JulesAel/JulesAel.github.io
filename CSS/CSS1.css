@@ -43,13 +43,12 @@ font-family: 'Fira Sans', sans-serif;
 
 
 /*Règles CSS pour les ordis */
-@media only screen and (min-width: 1030px) {
+@media only screen and (min-width: 1020px) {
 
     h1
     {
         font-size: 3.5em;
-        padding: 18%;
-        
+        padding: 18%; 
     }
     .title
     {
@@ -58,5 +57,10 @@ font-family: 'Fira Sans', sans-serif;
     .leg 
     {
         font-size: 0.8em;
+    }
+    p
+    {
+        margin-left: 23%;
+        margin-right: 23%;
     }
 }
