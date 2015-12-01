@@ -45,6 +45,12 @@ font-family: 'Fira Sans', sans-serif;
 /*Règles CSS pour les ordis */
 @media only screen and (min-width: 1030px) {
 
+    h1
+    {
+        font-size: 3.5em;
+        padding: 18%;
+        
+    }
     .title
     {
     background-image: url("img/michel_serfaty1.jpg");
