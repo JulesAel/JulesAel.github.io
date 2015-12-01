@@ -1,0 +1,50 @@
+/*Règles CSS pour les mobiles */
+html body
+{
+font-family: 'Fira Sans', sans-serif;
+    height: 100%;
+}
+
+    h1
+    {
+        font-size: 3em;
+        color:white;
+        padding: 12%;
+    }  
+
+.title 
+{
+     background-image: url("img/michel_serfaty1.jpg");
+  background-attachment: fixed;
+  width:100% ;
+  background-size: 100%;
+}
+
+.leg
+{
+    font-size: 0.3em;
+    font-style: italic;
+    color: white;
+    margin-left: 1.5%;
+}
+    .chapo
+    {
+        font-size: 1em;
+        font-weight: 700;
+        color: darkgray;
+    }
+    
+    p
+    {
+      font-size: 1.0em;
+        font-weight: 400; 
+    }
+
+
+/*Règles CSS pour les ordis */
+@media only screen and (min-width: 1030px) {
+.leg 
+    {
+        font-size: 0.8em;
+    }
+}
