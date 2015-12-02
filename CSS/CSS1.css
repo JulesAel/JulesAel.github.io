@@ -3,8 +3,14 @@ html body
 {
 font-family: 'Fira Sans', sans-serif;
     height: 100%;
+    margin:0;
+    padding:0;
 }
 
+img
+{
+    width: 100%;
+}
     h1
     {
         font-size: 3em;
@@ -15,7 +21,7 @@ font-family: 'Fira Sans', sans-serif;
 
 .title 
 {
-     background-image: url("img/michel_serfaty_crop.jpg");
+  background-image: url("img/michel_serfaty_crop.jpg");
   background-attachment: fixed;
   width:100% ;
   background-size: 100%;
@@ -30,20 +36,59 @@ font-family: 'Fira Sans', sans-serif;
 }
     .chapo
     {
-        font-size: 1em;
+        font-size: 1.1em;
         font-weight: 700;
         color: darkgray;
     }
     
     p
     {
-      font-size: 1.0em;
-        font-weight: 400; 
+      font-size: 1.1em;
+        font-weight: 400;
+    }
+
+    .auteur
+{
+    font-size: 0.9em;
+    margin-top: 5%;
+}
+
+.chrono
+{
+  border-style: solid;
+    padding: 1%;
+    font-size: 0.9em;
+}
+#chrono
+{
+    font-weight: 700;
+    color: darkgray;
+}
+
+#date
+{
+    font-weight: 700;
+}
+
+.blockimg img
+{
+ display: none;
+}
+
+.blockimg img:first-child
+{
+ display: block;  
+}
+#legms
+    {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-left: 1%%;
     }
 
 
 /*Règles CSS pour les ordis */
-@media only screen and (min-width: 1020px) {
+@media only screen and (min-width: 980px) {
 
     h1
     {
@@ -63,4 +108,41 @@ font-family: 'Fira Sans', sans-serif;
         margin-left: 23%;
         margin-right: 23%;
     }
+    .auteur
+    {
+        text-align: center;
+        margin-top: 2%;
+    }
+    .chrono
+    {
+        float: right;
+        width: 35%;
+        margin-left: 2em;
+        margin-right: 1.5em;
+    }
+.blockimg img
+{
+ display: block;
+ width:30%;
+ float:left;
+margin-bottom: 0.5%;
 }
+    
+.img1
+    {
+        margin-left: 3%;
+        margin-right: 2%;
+    }
+.img3
+    {
+        margin-left: 2%;
+        margin-right: 3%;
+    }
+#legms
+    {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-left: 3%;
+    }
+}
+
