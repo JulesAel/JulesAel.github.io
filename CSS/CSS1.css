@@ -152,10 +152,19 @@ img
     {
     background-image: url("img/michel_serfaty1.jpg");
     }
-    .leg 
+    
+
+    .leg
     {
-        font-size: 0.8em;
+        opacity: 0;
+        font-size: 1em;
     }
+    .title:hover .leg
+    {
+        font-size: 1em;
+        opacity:100;
+    }
+
     p
     {
         margin-left: 23%;
@@ -172,6 +181,7 @@ img
         width: 35%;
         margin-left: 2em;
         margin-right: 1.5em;
+        margin-bottom: 1em;
     }
 .blockimg img
 {
