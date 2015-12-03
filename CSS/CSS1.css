@@ -13,9 +13,10 @@ img
 }
     h1
     {
-        font-size: 1.3em;
+        font-size: 1em;
         color:white;
-        padding: 12%;
+        font-weight: 700;
+        padding: 8%;
         margin-top: 0;
     }  
 
