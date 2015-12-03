@@ -96,6 +96,49 @@ img
     margin-right: 2.5%;
     }
 
+.sep
+    {
+        display: block;
+        height: 0.15em;
+        margin-right: auto;
+        margin-left: auto;
+        width: 95%;      
+    }
+
+.twitter
+{
+    width: 10%;
+    margin-top: 0.35em;  
+}
+.rs1
+{
+    text-align: center;
+}
+
+.twitter1
+{
+     width: 10%;
+    margin-top: 0.35em;
+    margin-right: 1em;
+}
+.facebook
+{
+    width: 10%;
+    margin-top: 0.35em;
+    margin-right: 1em;
+}
+.google
+{
+    width: 10%;
+    margin-top: 0.35em; 
+    margin-right: 1em;
+}
+
+.mail
+{
+    width: 10%;
+    margin-top: 0.35em; 
+}
 
 /*Règles CSS pour les ordis */
 @media only screen and (min-width: 980px) {
@@ -148,11 +191,21 @@ margin-bottom: 0.5%;
         margin-left: 2%;
         margin-right: 3%;
     }
-#legms
+.legms
     {
     font-size: 0.8em;
     font-style: italic;
     margin-left: 3%;
     }
+    
+    .sep
+    {
+        display: block;
+        height: 0.25em;
+        margin-right: auto;
+        margin-left: auto;
+        width: 54%;      
+    }
+   
 }
 
