@@ -47,23 +47,25 @@ img
     p
     {
       font-size: 1.1em;
-        font-weight: 400;
-        margin-left: 2%;
-        margin-right: 2%;
+      font-weight: 400;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
     }
 
     .auteur
 {
     font-size: 0.9em;
     margin-top: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
 .chrono
 {
   border-style: solid;
     padding: 1%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     font-size: 0.9em;
 }
 #chrono
