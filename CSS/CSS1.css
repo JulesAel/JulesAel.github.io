@@ -23,6 +23,7 @@ img
 {
   background-image: url("img/michel_serfaty_crop.jpg");
   background-attachment: fixed;
+  background-repeat: no-repeat;
   width:100% ;
   background-size: 100%;
 }
