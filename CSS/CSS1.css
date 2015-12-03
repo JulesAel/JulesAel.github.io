@@ -13,7 +13,7 @@ img
 }
     h1
     {
-        font-size: 3em;
+        font-size: 1.8em;
         color:white;
         padding: 12%;
         margin-top: 0;
@@ -30,7 +30,7 @@ img
 
 .leg
 {
-    font-size: 0.3em;
+    font-size: 0.2em;
     font-style: italic;
     color: white;
     margin-left: 1.5%;
@@ -58,6 +58,8 @@ img
 {
   border-style: solid;
     padding: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
     font-size: 0.9em;
 }
 #chrono
