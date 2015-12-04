@@ -107,8 +107,8 @@ img
 
 .twitter
 {
-    width: 10%;
-    margin-top: 0.35em;  
+    width: 13%;
+    margin-top: 0.5em;  
 }
 .rs1
 {
@@ -117,27 +117,27 @@ img
 
 .twitter1
 {
-     width: 10%;
-    margin-top: 0.35em;
+     width: 13%;
+    margin-top: 0.5em;
     margin-right: 1em;
 }
 .facebook
 {
-    width: 10%;
-    margin-top: 0.35em;
+    width: 13%;
+    margin-top: 0.5em;
     margin-right: 1em;
 }
 .google
 {
-    width: 10%;
-    margin-top: 0.35em; 
+    width: 13%;
+    margin-top: 0.5em; 
     margin-right: 1em;
 }
 
 .mail
 {
-    width: 10%;
-    margin-top: 0.35em; 
+    width: 13%;
+    margin-top: 0.5em; 
 }
 
 /*Règles CSS pour les ordis */
@@ -216,6 +216,38 @@ margin-bottom: 0.5%;
         margin-left: auto;
         width: 54%;      
     }
+    
+    .twitter
+{
+    width: 10%;
+    margin-top: 0.35em;  
+}
+
+.twitter1
+{
+     width: 10%;
+    margin-top: 0.35em;
+    margin-right: 1em;
+}
+.facebook
+{
+    width: 10%;
+    margin-top: 0.35em;
+    margin-right: 1em;
+}
+.google
+{
+    width: 10%;
+    margin-top: 0.35em; 
+    margin-right: 1em;
+}
+
+.mail
+{
+    width: 10%;
+    margin-top: 0.35em; 
+}
+
    
 }
 
