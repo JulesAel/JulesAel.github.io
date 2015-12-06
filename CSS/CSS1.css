@@ -88,7 +88,6 @@ img
     margin-left: 2.5%;
     margin-right: 2.5%;
     font-size: 0.9em;
-    -webkit-transition: float 1s, width 1s; margin-left 1s, margin-right 1s, margin-bottom 1s;
 }
 #chrono
 {
